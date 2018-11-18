@@ -6,7 +6,7 @@ class Posts extends Component {
     constructor() {
         super();
         this.state = {
-            // 1. empty posts array in states
+            // 1. empty posts array in states.
             posts: []
         }
     }
