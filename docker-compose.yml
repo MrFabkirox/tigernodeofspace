@@ -1,8 +1,8 @@
 version: '3'
 services:
   app:
-    container_name: tigernodeofspace-client
-    image: fabriceesope/tigernodeofspace-client
+    container_name: tigernodeofspace
+    image: fabriceesope/tigernodeofspace
     restart: always
     build: .
     ports:
@@ -11,3 +11,4 @@ services:
       - tigernodesofspace
   tigernodesofspace:
     image: fabriceesope/tigernodesofspace
+
